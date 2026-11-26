@@ -1,0 +1,30 @@
+/* Skyline Courier — page chrome only; the game itself is drawn on canvas. */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #0a0f24;
+  height: 100%;
+}
+
+#wrap {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#stage {
+  display: block;
+  background: #1b2a5e;
+  border-radius: 6px;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.55);
+}
+
+#hint {
+  margin: 0;
+  color: #8ea3b8;
+  font: 13px/1.4 "Segoe UI", system-ui, sans-serif;
+  text-align: center;
+}
